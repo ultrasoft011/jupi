@@ -46,12 +46,19 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 50px;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 li {
   display: inline;
-  padding: 0px 120px 0px 120px;
-
+  padding: 0px 100px 0px 100px;
 }
 
+a {
+  color: rgb(66, 42, 42);
+}
+
+a:hover {
+  font-weight: bold;
+  border-bottom: solid 3px rgb(241, 149, 44);
+}

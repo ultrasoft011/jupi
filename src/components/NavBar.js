@@ -6,7 +6,7 @@ function Navbar() {
     <div className="navbar">
       <ul class="#d7ccc8 brown lighten-4">
         <li>
-        <img src={logo} width="150px" />
+        <img src={logo} width="125px" />
         </li>
         <li>
           <a href="#home">Home</a>
