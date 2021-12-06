@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/jupiter.png";
+import CartWidget from "./CartWidget";
 
 function Navbar() {
   return (
@@ -10,24 +11,6 @@ function Navbar() {
             {" "}
             <img class="jupiter-logo" src={logo} width="85px" />
           </li>
-          <li class="search-bar">
-            <nav>
-              <div class="nav-wrapper #424242 grey darken-3">
-                <form>
-                  <div class="input-field ">
-                    <input id="search" type="search" required />
-                    <label class="label-icon" for="search">
-                      <i class="material-icons ">search</i>
-                    </label>
-                    <i class="material-icons ">close</i>
-                  </div>
-                </form>
-              </div>
-            </nav>
-          </li>
-        </div>
-
-        <div class="grid-container">
           <li>
             <i class="material-icons">home</i>
             <a href="#contact">Home</a>
@@ -46,6 +29,24 @@ function Navbar() {
             <i class="material-icons">web</i>
             <a href="#about">About Jupi</a>
           </li>
+          <div class="grid-container">
+            <li class="search-bar">
+              <nav>
+                <div class="nav-wrapper #424242 grey darken-3">
+                  <form>
+                    <div class="input-field ">
+                      <input id="search" type="search" required />
+                      <label class="label-icon" for="search">
+                        <i class="material-icons ">search</i>
+                      </label>
+                      <i class="material-icons ">close</i>
+                    </div>
+                  </form>
+                </div>
+              </nav>
+            </li>
+          </div>
+          <CartWidget />
         </div>
       </ul>
     </div>

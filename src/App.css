@@ -52,7 +52,7 @@ ul {
 
 li {
   display: inline;
-  padding: 0px 70px 0px 70px;
+  padding: 0px 50px 0px 50px;
 }
 
 a {
@@ -84,4 +84,9 @@ a:hover {
 
 .nav-wrapper {
   width: 450px;
+}
+
+.shopping-cart {
+  padding-left: 100px;
+  font-size: 31px;
 }

@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/NavBar";
+import CartWidget from "./components/CartWidget";
 import logo from "./images/jupiter.png";
 
 function App() {
