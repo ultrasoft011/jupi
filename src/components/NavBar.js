@@ -8,25 +8,25 @@ const Navbar = () => {
       <div class="container">
         <div class="row">
           <div class="col-1">
-            <img src={logo} width="60px" />
+            <img src={logo} width="72px" />
           </div>
-          <div class="col-2 mod">
-            <i class="material-icons">home</i>
+          <div class="col-2 ">
+            <i class="material-icons mod3">home</i>
             <a href="#contact">Home</a>
           </div>
-          <div class="col-2 mod">
-            <i class="material-icons">store_mall_directory</i>
+          <div class="col-2 ">
+            <i class="material-icons mod3">store_mall_directory</i>
             <a href="#about">News</a>
           </div>
-          <div class="col-2 mod">
-            <i class="material-icons">people_outline</i>
+          <div class="col-2 ">
+            <i class="material-icons mod3">people_outline</i>
             <a href="#contact">Contact Us</a>
           </div>
-          <div class="col-2 mod">
-            <i class="material-icons">web</i>
+          {/* <div class="col-2">
+            <i class="material-icons  mod3">web</i>
             <a href="#about">About Jupi</a>
-          </div>
-          <div class="col-3 mod-2">
+          </div> */}
+          <div class="col-3 mod2">
             <form class="d-flex ">
               <input
                 class="form-control me-2 "
@@ -34,8 +34,11 @@ const Navbar = () => {
                 placeholder="Search in Jupi"
                 aria-label="Search"
               />
-              <i class="material-icons search-icon">search</i>
+              <i class="material-icons mod3">search</i>
             </form>
+          </div>
+          <div class="col-2 mod-2">
+            <CartWidget />
           </div>
         </div>
       </div>
