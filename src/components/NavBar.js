@@ -7,77 +7,40 @@ const Navbar = () => {
     <>
       <div class="container">
         <div class="row">
-          <div class="col-1">Column</div>
-          <div class="col-2">Column</div>
-          <div class="col-9">Column</div>
+          <div class="col-1">
+            <img src={logo} width="60px" />
+          </div>
+          <div class="col-2 mod">
+            <i class="material-icons">home</i>
+            <a href="#contact">Home</a>
+          </div>
+          <div class="col-2 mod">
+            <i class="material-icons">store_mall_directory</i>
+            <a href="#about">News</a>
+          </div>
+          <div class="col-2 mod">
+            <i class="material-icons">people_outline</i>
+            <a href="#contact">Contact Us</a>
+          </div>
+          <div class="col-2 mod">
+            <i class="material-icons">web</i>
+            <a href="#about">About Jupi</a>
+          </div>
+          <div class="col-3 mod-2">
+            <form class="d-flex ">
+              <input
+                class="form-control me-2 "
+                type="search"
+                placeholder="Search in Jupi"
+                aria-label="Search"
+              />
+              <i class="material-icons search-icon">search</i>
+            </form>
+          </div>
         </div>
       </div>
     </>
   );
 };
-
-//     <div className="navbar">
-
-// <div class="container">
-//   <div class="row">
-//     <div class="col">
-//       Column
-//     </div>
-//     <div class="col">
-//       Column
-//     </div>
-//     <div class="col">
-//       Column
-//     </div>
-//   </div>
-// </div>
-//       <ul class="#f3e5f5 purple lighten-5">
-//         <div class="grid-container">
-//           <li>
-//             {" "}
-//             <img class="jupiter-logo" src={logo} width="85px" />
-
-//           </li>
-//           <li>
-//             <i class="material-icons">home</i>
-//             <a href="#contact">Home</a>
-//           </li>
-//           <li>
-//             <i class="material-icons">store_mall_directory</i>
-//             <a href="#about">News</a>
-//           </li>
-//           <li class="search-bar"></li>
-
-//           <li>
-//             <i class="material-icons">people_outline</i>
-//             <a href="#contact">Contact Us</a>
-//           </li>
-//           <li>
-//             <i class="material-icons">web</i>
-//             <a href="#about">About Jupi</a>
-//           </li>
-//           <div class="grid-container">
-//             <li class="search-bar">
-//               <nav>
-//                 <div class="nav-wrapper #424242 grey darken-3">
-//                   <form>
-//                     <div class="input-field ">
-//                       <input id="search" type="search" required />
-//                       <label class="label-icon" for="search">
-//                         <i class="material-icons ">search</i>
-//                       </label>
-//                       <i class="material-icons ">close</i>
-//                     </div>
-//                   </form>
-//                 </div>
-//               </nav>
-//             </li>
-//           </div>
-//           <CartWidget />
-//         </div>
-//       </ul>
-//     </div>
-//   );
-// }
 
 export default Navbar;
