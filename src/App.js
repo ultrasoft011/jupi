@@ -10,7 +10,6 @@ function App() {
       <Navbar />
 
       <header className="App-header">
-        <h1>Jupi E-commerce</h1>
         {/* ItemListContainer component with props*/}
         <ItemListContainer welcome="This site is under construction, see you soon" />
       </header>

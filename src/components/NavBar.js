@@ -22,10 +22,6 @@ const Navbar = () => {
             <i class="material-icons mod3">people_outline</i>
             <a href="#contact">Contact Us</a>
           </div>
-          {/* <div class="col-2">
-            <i class="material-icons  mod3">web</i>
-            <a href="#about">About Jupi</a>
-          </div> */}
           <div class="col-3 mod2">
             <form class="d-flex ">
               <input
@@ -37,6 +33,7 @@ const Navbar = () => {
               <i class="material-icons mod3">search</i>
             </form>
           </div>
+          {/* CartWidget component */}
           <div class="col-2 mod-2">
             <CartWidget />
           </div>
