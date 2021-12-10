@@ -1,7 +1,6 @@
 import "./App.css";
 import ItemListContainer from "./components/ItemListContainer";
 import Navbar from "./components/NavBar";
-import TestHook from "./components/useState";
 
 function App() {
   return (

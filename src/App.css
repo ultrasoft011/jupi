@@ -77,3 +77,25 @@ a:hover {
   font-size: 40px;
   color: rgb(226, 141, 226);
 }
+
+.counter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.counter {
+  padding: 5px 30px 5px 30px;
+}
+
+.btn-fix-right {
+  padding-right: 2px;
+}
+
+.btn-fix-left {
+  padding-left: 2px;
+}
+
+.producto-jupi {
+  padding-bottom: 60px;
+}
