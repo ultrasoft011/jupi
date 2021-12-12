@@ -99,3 +99,9 @@ a:hover {
 .producto-jupi {
   padding-bottom: 60px;
 }
+
+.article-container {
+  display: flex;
+  border: 2px solid white;
+  flex-direction: column;
+}
