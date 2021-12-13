@@ -101,7 +101,15 @@ a:hover {
 }
 
 .article-container {
-  display: flex;
+  padding: 20px;
   border: 2px solid white;
-  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-container {
+  padding: 50px;
 }
