@@ -13,7 +13,7 @@ let myPromise = new Promise(function (Resolve, Reject) {
   // Function setTimeout para simular retraso de red de 2 segundos
   setTimeout(function () {
     Resolve(data);
-  }, 2000);
+  }, 5500);
 });
 
 // Component ItemList: renderiza por medio de map cada elemento del array ("data")

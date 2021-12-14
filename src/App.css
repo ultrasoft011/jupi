@@ -113,3 +113,10 @@ a:hover {
 .second-container {
   padding: 50px;
 }
+
+.loading {
+  padding: 40px;
+  font-size: 55px;
+  text-align: center;
+  color: rgb(255, 221, 71)
+}

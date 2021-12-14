@@ -5,36 +5,36 @@ import CartWidget from "./CartWidget";
 const Navbar = () => {
   return (
     <>
-      <div class="container">
-        <div class="row">
-          <div class="col-1">
-            <img src={logo} width="72px" />
+      <div className="container">
+        <div className="row">
+          <div className="col-1">
+            <img src={logo} width="72px" alt=""/>
           </div>
-          <div class="col-2 ">
-            <i class="material-icons mod3">home</i>
+          <div className="col-2 ">
+            <i className="material-icons mod3">home</i>
             <a href="#contact">Home</a>
           </div>
-          <div class="col-2 ">
-            <i class="material-icons mod3">store_mall_directory</i>
+          <div className="col-2 ">
+            <i className="material-icons mod3">store_mall_directory</i>
             <a href="#about">News</a>
           </div>
-          <div class="col-2 ">
-            <i class="material-icons mod3">people_outline</i>
+          <div className="col-2 ">
+            <i className="material-icons mod3">people_outline</i>
             <a href="#contact">Contact Us</a>
           </div>
-          <div class="col-3 mod2">
-            <form class="d-flex ">
+          <div className="col-3 mod2">
+            <form className="d-flex ">
               <input
-                class="form-control me-2 "
+                className="form-control me-2 "
                 type="search"
                 placeholder="Search in Jupi"
                 aria-label="Search"
               />
-              <i class="material-icons mod3">search</i>
+              <i className="material-icons mod3">search</i>
             </form>
           </div>
           {/* CartWidget component */}
-          <div class="col-2 mod-2">
+          <div className="col-2 mod-2">
             <CartWidget />
           </div>
         </div>

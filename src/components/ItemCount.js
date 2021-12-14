@@ -27,17 +27,17 @@ const ItemCount = ({ stock, initial }) => {
 
   return (
     <>
-      <div class="producto-jupi">
+      <div className="producto-jupi">
         <h2>Producto Jupi</h2>
-        <div class="counter-container">
-          <div class="btn-fix-right">
-            <button class="btn btn-danger" onClick={zeroLimit}>
+        <div className="counter-container">
+          <div className="btn-fix-right">
+            <button className="btn btn-danger" onClick={zeroLimit}>
               -
             </button>
           </div>
-          <p class="counter">{count}</p>
-          <div class="btn-fix-left">
-            <button class="btn btn-success" onClick={onAdd}>
+          <p className="counter">{count}</p>
+          <div className="btn-fix-left">
+            <button className="btn btn-success" onClick={onAdd}>
               +
             </button>
           </div>
