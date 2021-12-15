@@ -28,22 +28,24 @@ const ItemList = () => {
 
   // Return del container que renderiza cada elemento del array ("data")
   return (
-    <div className="main-container">
-      {/* Function map para iterar dentro del array */}
-      {product.map((user) => {
-        return (
-          <div className="second-container">
-            {/* Item component: componente encargado de los estilos de cada propiedad que se esta iterando del array */}
-            <Item
-              id={user.id}
-              title={user.title}
-              price={`Price: $USD ${user.price}`}
-              pictureURL={user.pictureURL}
-            />
-          </div>
-        );
-      })}
-    </div>
+    <>
+      <div className="main-container">
+        {/* Function map para iterar dentro del array */}
+        {product.map((user) => {
+          return (
+            <div className="second-container">
+              {/* Item component: componente encargado de los estilos de cada propiedad que se esta iterando del array */}
+              <Item
+                id={user.id}
+                title={user.title}
+                price={`Price: $USD ${user.price}`}
+                pictureURL={user.pictureURL}
+              />
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 };
 

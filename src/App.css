@@ -118,5 +118,9 @@ a:hover {
   padding: 40px;
   font-size: 55px;
   text-align: center;
-  color: rgb(255, 221, 71)
+  color: rgb(255, 221, 71);
+}
+
+.button-show {
+  display: none;
 }
