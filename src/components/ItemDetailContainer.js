@@ -32,7 +32,7 @@ function ItemDetailContainer() {
   return (
     <>
     <div className="button-container">
-      <button className="button-show" onClick={() => handleButtonClick()}>
+      <button className="button-show btn btn-secondary" onClick={() => handleButtonClick()}>
         Ver detalles
       </button>
     </div>
