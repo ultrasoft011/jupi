@@ -1,39 +1,23 @@
-// import React from "react";
+import React from "react";
+import logo from "../images/el-universo.jpg";
 
-// const data = [
-//   {
-//     id: 1,
-//     title: "The universe",
-//     description:
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper lacinia ante, a mattis neque fringilla et. Donec in nunc.",
-//     price: 680,
-//     pictureURL: "Imagen_1",
-//   },
-// ];
+function ItemDetail() {
+  return (
+    // Desarrolla la vista de detalle expandida del producto con su imagen
+    // título, descripción y precio
+    <>
+      <div className="item-detail">
+        <h1>Titulo: El universo</h1>
+        <img src={logo} width="250px" alt="" />
+        <p>Descripción: ¡Deja que Lonely Planet te lleve más lejos que nunca! Aterriza en los planetas de nuestro sistema solar, antes de continuar tu viaje a los confines del universo conocido a través de exoplanetas, estrellas recién nacidas, restos de supernovas o supercúmulos de galaxias, a medida que descubres las vistas más asombrosas del espacio.</p>
+        <h3>Precio: USD 99</h3>
+      </div>
+      {/* <h1>Titulo: Limites de la Galaxia</h1>
+      <h2>Imagen</h2>
+      
+      <h4>Precio</h4> */}
+    </>
+  );
+}
 
-// // let myPromise = new Promise(function (Resolve, Reject) {
-// //   // Data: detalle del producto
-
-// // }
-
-// //   // Function setTimeout para simular retraso de red de 2 segundos
-// //   setTimeout(function () {
-// //     Resolve(data);
-// //   }, 5500);
-// // });
-
-// const ItemDetail = (data) => {
-//   // const [product, setProduct] = useState([]);
-
-//   // myPromise.then(function (value) {
-//   //   setProduct(value);
-//   // });
-//   return (
-//     <>
-//       {/* Desarrollo de la vista de detalle expandida del producto*/}
-//       <h1>{console.log(data)}</h1>
-//     </>
-//   );
-// };
-
-// export default ItemDetail;
+export default ItemDetail;

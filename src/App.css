@@ -123,4 +123,22 @@ a:hover {
 
 .button-show {
   display: none;
+  padding: 9px;
+}
+
+.item-detail {
+  padding: 40px;
+}
+
+.item-detail p {
+  margin: 30px 200px 0 200px;
+  text-align: justify;
+}
+
+.item-detail h3 {
+  padding: 20px;
+}
+
+.button-container {
+  padding: 10px 0 40px 0;
 }

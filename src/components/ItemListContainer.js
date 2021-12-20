@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import ItemCount from "./ItemCount";
 import ItemList from "./ItemList";
-import ItemDetail from "./ItemDetail";
+import ItemDetailContainer from "./ItemDetailContainer";
 
 const ItemListContainer = (props) => {
   // useState para mostrar mensaje de loading del catalogo
   const [load, setLoad] = useState("Loading, please wait...");
   const [messageLoad, setMessage] = useState("");
-  // useState para el manejo del boton
-  const [buttonClicked, setButtonClicked] = useState(false);
 
   // Function loading: para mostrar un texto mientras carga un catalogo
   const loadingCatalog = () => {
@@ -25,9 +23,6 @@ const ItemListContainer = (props) => {
   };
 
   // Function handleButtonClick para la logica del boton
-  const handleButtonClick = () => {
-    setButtonClicked(true);
-  };
 
   // const loadButton = () => {
   //   setTimeout(function () {
@@ -42,16 +37,10 @@ const ItemListContainer = (props) => {
         {load} {messageLoad}
         {loadingCatalog()} {messageCatalog()}
       </p>
-      <button className="button-show" onClick={() => handleButtonClick()}>
-        Ver detalles
-      </button>
-      {buttonClicked ? <ItemDetail /> : null}
-      {/* ItemList component, para renderizar cada producto del catalogo*/}
-      <ItemList />
-
+      <ItemDetailContainer/>
       {/* ItemCount component, contador con valores iniciales de 5 y 1 */}
       <ItemCount stock="5" initial="1" />
-
+      <ItemList />
       <h1>Jupi E-commerce</h1>
       <i className="welcome-message">{props.welcome}</i>
     </>
