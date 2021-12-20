@@ -1,7 +1,7 @@
 import "./App.css";
 import ItemListContainer from "./components/ItemListContainer";
 import Navbar from "./components/NavBar";
-import ItemDetail from "./components/ItemDetail";
+import ItemDetailContainer from "./components/ItemDetailContainer";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         {/* ItemListContainer component with props*/}
         <ItemListContainer welcome="This site is under construction, see you soon" />
-        
+        <ItemDetailContainer />
       </header>
     </div>
   );
